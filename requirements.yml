@@ -1,3 +1,3 @@
 ---
-- name: geerlingguy.dotfiles
+#- name: geerlingguy.dotfiles ## Not used. Have my own .home setup
 - name: geerlingguy.homebrew

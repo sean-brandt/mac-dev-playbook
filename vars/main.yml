@@ -3,80 +3,63 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
-dotfiles_files:
-  - .bash_profile
-  - .gitconfig
-  - .gitignore
-  - .inputrc
-  - .osx
-  - .vimrc
-
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
-  - doxygen
-  - gettext
+  - awscli
+  - curl
   - git
   - go
-  - gpg
+  - gnupg
+  - gnupg2
   - hub
-  - httpie
-  - iperf
-  - libdvdcss
-  - libevent
   - packer
   - python
   - sqlite
   - mcrypt
-  - mysql
   - nmap
+  - neo4j
   - npm
   - nvm
-  - php70
-  - php70-mcrypt
-  - php70-xdebug
   - ssh-copy-id
-  - cowsay
-  - readline
-  - subversion
   - openssl
-  - pv
-  - drush
-  - wget
-  - wrk
+  - brew-cask
+  - dockutil
+  - zsh
+  - tmux
+  - keybase
+  - direnv
+  - git-flow
+  - pinentry
+  - sqlite
+  - terminal-notifier
+  - tiny-fugue
+  - zsh-completions
+  - zsh-history-substring-search
+  - zsh-syntax-highlighting
+
 
 homebrew_taps:
   - homebrew/core
   - caskroom/cask
+  - caskroom/versions
   - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
   - homebrew/versions
+  - pivotal/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - atom
   - docker
   - dropbox
-  - fing
   - firefox
   - google-chrome
-  - handbrake
-  - kdiff3
-  - licecap
-  - limechat
-  - macvim
-  - yujitach-menumeters # Note: Using forked version for 10.11+ support
-  - nvalt
-  - sequel-pro
+  - istat-menus
   - skype
   - skitch
   - slack
-  - sublime-text
   - transmit
   - vagrant
   - virtualbox
-  - vlc
